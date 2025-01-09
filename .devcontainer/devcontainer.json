@@ -1,10 +1,12 @@
 {
   "extensions": [
     "GitHub.github-vscode-theme",
-    "alexcvzz.vscode-sqlite"
-    // Additional Extensions Here
+    "alexcvzz.vscode-sqlite",
+    "ms-python.black-formatter",
+    "GitHub.github-vscode-theme",
+    "VisualStudioExptTeam.vscodeintellicode",
+    "VisualStudioExptTeam.intellicode-api-usage-examples"
   ],
-  "onCreateCommand" : "echo PS1='\"$ \"' >> ~/.bashrc", //Set Terminal Prompt to $
+  "onCreateCommand": "echo PS1='\"$ \"' >> ~/.bashrc", //Set Terminal Prompt to $
 }
-
 // DevContainer Reference: https://code.visualstudio.com/docs/remote/devcontainerjson-reference
