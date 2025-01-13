@@ -1,12 +1,26 @@
 {
-  "extensions": [
-    "GitHub.github-vscode-theme",
-    "alexcvzz.vscode-sqlite",
-    "ms-python.black-formatter",
-    "GitHub.github-vscode-theme",
-    "VisualStudioExptTeam.vscodeintellicode",
-    "VisualStudioExptTeam.intellicode-api-usage-examples"
-  ],
-  "onCreateCommand": "echo PS1='\"$ \"' >> ~/.bashrc", //Set Terminal Prompt to $
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "GitHub.github-vscode-theme",
+        "alexcvzz.vscode-sqlite",
+        "ms-python.black-formatter",
+        "GitHub.github-vscode-theme",
+        "VisualStudioExptTeam.vscodeintellicode",
+        "VisualStudioExptTeam.intellicode-api-usage-examples",
+        "GitHub.copilot",
+        "GitHub.copilot-chat",
+        "qwtel.sqlite-viewer",
+        "inferrinizzard.prettier-sql-vscode"
+      ],
+      "settings": {
+        "prettier.sql-formatter.tabWidth": 4,
+        "prettier.sql-formatter.useTabs": false,
+        "prettier.sql-formatter.keywordCase": "upper",
+        "prettier.sql-formatter.denseOperators": false
+      }
+    }
+  },
+  "onCreateCommand": "echo PS1='\"$ \"' >> ~/.bashrc" // Set Terminal Prompt to $
 }
 // DevContainer Reference: https://code.visualstudio.com/docs/remote/devcontainerjson-reference
